@@ -28,7 +28,9 @@ def factorize_optimized(number: int) -> list[int]:
 
 if __name__ == '__main__':
     
-    numbers_list = [128, 255, 99999, 10651060, 12121212, 123435435, 123345563]
+    numbers_list = [
+        103102111, 101010, 123123, 10651060, 12121212, 123435435, 123345563
+    ]
 
     logger.debug('\nTest with optimized function:')
 
